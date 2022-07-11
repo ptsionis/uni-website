@@ -158,3 +158,40 @@ footer {
 .address-container img, .phone-container img {
     margin-right: 0.5em;
 }
+
+@media all and (max-width:800px) {
+
+    nav {
+        display: none;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .contact-info {
+        display: none
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo img {
+        align-self: center;
+    }
+
+    .carousel-title-container {
+        margin-top: -0.75em;
+    }
+
+    .carousel-text {
+        margin-top: 1em;
+    }
+
+    .carousel-selector {
+        margin-top: 2em;
+    }
+}
